@@ -15,11 +15,17 @@ python = "~3.11"
 ipykernel = "^6.29.4"
 ruff = "^0.4.5"
 python-dotenv = "^1.0.1"
+matplotlib = "^3.9.0"
 
 
 [tool.poetry.group.data.dependencies]
 playwright = "^1.44.0"
 beautifulsoup4 = "^4.12.3"
+datasets = "^2.19.1"
+
+
+[tool.poetry.group.finetune.dependencies]
+transformers = "^4.41.1"
 
 [build-system]
 requires = ["poetry-core"]
