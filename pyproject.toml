@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "proyecto-redes"
+version = "0.1.0"
+description = "Proyecto final curso Deep Learning"
+authors = ["jjovalle99 <jj.ovalle@uniandes.edu.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+ruff = "^0.4.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 120
